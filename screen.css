@@ -8,6 +8,14 @@ h1, h2, h3, h4, h5, h6 {
   margin: 40px 0px -10px 0px;
 }
 
+p {
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  -ms-hyphens: auto;
+  -o-hyphens: auto;
+  hyphens: auto;
+}
+
 div#container {
   padding: 35px 70px;
   width: 600px;

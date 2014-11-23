@@ -3,8 +3,7 @@
 title: handroll - A website generator for software artisans
 template: base.j2
 ---
-handroll
-========
+<div class='hero'>handroll</div>
 
 ### A website generator for software artisans
 

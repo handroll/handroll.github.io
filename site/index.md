@@ -104,14 +104,16 @@ project.
 
 * [GitHub project for source code and issues][github]
 * [PyPI for package hosting][pypi]
-* [GitHub project for this website][website]
+* [Read the Docs for developer documentation][rtd]
 * [Google Group for announcements and discussion][groups]
 * [Transifex project for language translation][transifex]
 * [Travis project for Continuous Integration][travis]
 * [Coveralls for source coverage measurement][coveralls]
+* [GitHub project for this website][website]
 
 [github]: https://github.com/handroll/handroll
 [pypi]: https://pypi.python.org/pypi/handroll
+[rtd]: http://handroll.readthedocs.org/en/latest/
 [website]: https://github.com/handroll/handroll.github.io
 [transifex]: https://www.transifex.com/projects/p/handroll/
 [travis]: https://travis-ci.org/handroll/handroll

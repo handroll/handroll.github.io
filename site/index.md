@@ -33,8 +33,20 @@ desired.
 What can it do?
 ---------------
 
-TODO: Document the features. See [the developer documentation feature
-list](http://handroll.readthedocs.org/en/latest/#features) for now.
+The primary features of handroll are listed below. You can find a full list of
+features in the [developer documentation][devfeatures].
+
+* Generate HTML from [Markdown][md], [reStructuredText][rst], or
+  [Textile][text].
+* Generate CSS from [Sass][sass].
+* Generate an [Atom XML][atom] feed.
+* Run a [development server][devserver] to update as you work.
+* Translated into English, French, German, Italian, Portuguese, and Spanish.
+
+[devfeatures]: http://handroll.readthedocs.org/en/latest/#features
+[sass]: http://sass-lang.com/
+[atom]: http://en.wikipedia.org/wiki/Atom_%28standard%29
+[devserver]: http://handroll.readthedocs.org/en/latest/server.html#devserver
 
 How much?
 ---------
@@ -54,17 +66,53 @@ The first thing to do is to install handroll from a terminal.
 $ pip install handroll
 ```
 
-TODO: Explain more.
+After installing, make a directory for your project. Add a [template][template]
+or [configuration file][conf] to show handroll that your new directory is a
+handroll project. Then you are free to start adding whatever content you want.
+
+You can generate your site by running `handroll` or let handroll watch your
+work and update as you go by using `handroll --watch` (see [Development
+Server][devserver]).
+
+[template]: http://handroll.readthedocs.org/en/latest/templates.html
+[conf]: http://handroll.readthedocs.org/en/latest/configuration.html
+[devserver]: http://handroll.readthedocs.org/en/latest/server.html
 
 Contributing
 ------------
 
-TODO: Explain how.
+There are many ways to contribute to handroll. [Start a discussion about a
+feature][groups]. [Report a problem you're experiencing][issues]. [Translate
+for a new language or fix a broken one][i18n]. [Submit some code you
+wrote][pr]. [Write a plugin for your favorite tool][composer].
+
+The contributions of others will always be appreciated. Contributors of code
+or translations are [recorded in the source code][authors].
+
+[groups]: https://groups.google.com/forum/#!forum/handroll
+[issues]: https://github.com/handroll/handroll/issues
+[i18n]: http://handroll.readthedocs.org/en/latest/i18n.html
+[pr]: https://github.com/handroll/handroll/pulls?q=is%3Aopen+is%3Apr
+[composer]: http://handroll.readthedocs.org/en/latest/composers.html
+[authors]: https://github.com/handroll/handroll/blob/master/AUTHORS
 
 More information
 ----------------
 
-TODO: Link all the things!
+Any other information can be found at the various sites used by the handroll
+project.
 
-TODO: Do not fear! Substance before style. This website is trying to get the
-basic information correct first before making it look pretty.
+* [GitHub project for source code and issues][github]
+* [PyPI for package hosting][pypi]
+* [GitHub project for this website][website]
+* [Google Group for announcements and discussion][groups]
+* [Transifex project for language translation][transifex]
+* [Travis project for Continuous Integration][travis]
+* [Coveralls for source coverage measurement][coveralls]
+
+[github]: https://github.com/handroll/handroll
+[pypi]: https://pypi.python.org/pypi/handroll
+[website]: https://github.com/handroll/handroll.github.io
+[transifex]: https://www.transifex.com/projects/p/handroll/
+[travis]: https://travis-ci.org/handroll/handroll
+[coveralls]: https://coveralls.io/r/handroll/handroll

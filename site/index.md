@@ -41,7 +41,7 @@ features in the [developer documentation][devfeatures].
 * Generate CSS from [Sass][sass].
 * Generate an [Atom XML][atom] feed.
 * Run a [development server][devserver] to update as you work.
-* Translated into Dutch, English, French, German, Italian, Portuguese,
+* Translated into Dutch, English, French, German, Greek, Italian, Portuguese,
   and Spanish.
 
 [devfeatures]: http://handroll.readthedocs.org/en/latest/#features

@@ -33,9 +33,6 @@ desired.
 What can it do?
 ---------------
 
-The primary features of handroll are listed below. You can find a full list of
-features in the [developer documentation][devfeatures].
-
 * Generate HTML from [Markdown][md], [reStructuredText][rst], or
   [Textile][text].
 * Generate CSS from [Sass][sass].
@@ -43,6 +40,9 @@ features in the [developer documentation][devfeatures].
 * Run a [development server][devserver] to update as you work.
 * Translated into Dutch, English, French, German, Greek, Italian, Portuguese,
   and Spanish.
+
+You can find a full list of features in the
+[developer documentation][devfeatures].
 
 [devfeatures]: http://handroll.readthedocs.org/en/latest/#features
 [sass]: http://sass-lang.com/

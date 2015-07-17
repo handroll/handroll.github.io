@@ -7,9 +7,10 @@ template: base.j2
 
 ### A website generator for software artisans
 
-handroll is a website generator designed to be simple and fast. The concept is
-easy: you make content in your favorite format and handroll makes HTML out of
-it.
+handroll is a website generator designed to be simple and fast.
+The concept is easy:
+you make content in your favorite format
+and handroll makes a website out of it.
 
 Want to make a blog using [Markdown][md]? No problem. How about a personal
 website in [reStructuredText][rst]? Sure thing. Maybe [Textile][text] is more
@@ -28,7 +29,7 @@ and more.
 
 handroll is a command line tool. In almost all cases, you will only ever need
 to type `handroll`, but a basic comfort level with a command line terminal is
-desired.
+beneficial.
 
 What can it do?
 ---------------
@@ -36,7 +37,7 @@ What can it do?
 * Generate HTML from [Markdown][md], [reStructuredText][rst], or
   [Textile][text].
 * Generate CSS from [Sass][sass].
-* Generate an [Atom XML][atom] feed.
+* Track blog entries and [generate a feed][blog].
 * Run a [development server][devserver] to update as you work.
 * Translated into Dutch, English, French, German, Greek, Italian, Portuguese,
   and Spanish.
@@ -46,7 +47,7 @@ You can find a full list of features in the
 
 [devfeatures]: http://handroll.readthedocs.org/en/latest/#features
 [sass]: http://sass-lang.com/
-[atom]: http://en.wikipedia.org/wiki/Atom_%28standard%29
+[blog]: http://handroll.readthedocs.org/en/latest/extensions.html#blog-extension
 [devserver]: http://handroll.readthedocs.org/en/latest/server.html#devserver
 
 How much?
@@ -69,11 +70,13 @@ $ pip install handroll
 
 After installing, make a directory for your project. Add a [template][template]
 or [configuration file][conf] to show handroll that your new directory is a
-handroll project. Then you are free to start adding whatever content you want.
+handroll project.
+Then you are free to add whatever content you want.
 
-You can generate your site by running `handroll` or let handroll watch your
-work and update as you go by using `handroll --watch` (see [Development
-Server][devserver]).
+You can generate your site by running `handroll`,
+or let handroll watch your work
+and update as you go by using `handroll --watch`
+(see [Development Server][devserver]).
 
 [template]: http://handroll.readthedocs.org/en/latest/templates.html
 [conf]: http://handroll.readthedocs.org/en/latest/configuration.html
@@ -82,10 +85,14 @@ Server][devserver]).
 Contributing
 ------------
 
-There are many ways to contribute to handroll. [Start a discussion about a
-feature][groups]. [Report a problem you're experiencing][issues]. [Translate
-for a new language or fix a broken one][i18n]. [Submit some code you
-wrote][pr]. [Write a plugin for your favorite tool][composer].
+There are many ways to contribute to handroll.
+
+ * [Start a discussion about a feature][groups].
+ * [Report a problem you're experiencing][issues].
+ * [Translate for a new language or fix a broken one][i18n].
+ * [Submit some code you wrote][pr].
+ * [Write a plugin for your favorite tool][composer].
+ * [Extend handroll in some new way][extension].
 
 The contributions of others will always be appreciated. Contributors of code
 or translations are [recorded in the source code][authors].
@@ -95,6 +102,7 @@ or translations are [recorded in the source code][authors].
 [i18n]: http://handroll.readthedocs.org/en/latest/i18n.html
 [pr]: https://github.com/handroll/handroll/pulls?q=is%3Aopen+is%3Apr
 [composer]: http://handroll.readthedocs.org/en/latest/composers.html
+[extension]: http://handroll.readthedocs.org/en/latest/extensions.html
 [authors]: https://github.com/handroll/handroll/blob/master/AUTHORS
 
 More information

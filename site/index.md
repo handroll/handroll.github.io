@@ -39,7 +39,15 @@ What can it do?
 * Generate CSS from [Sass][sass].
 * Track blog entries and [generate a feed][blog].
 * Run a [development server][devserver] to update as you work.
-* Translated into Dutch, English, French, German, Greek, Italian, Portuguese,
+* Translated into
+  Arabic,
+  Dutch,
+  English,
+  French,
+  German,
+  Greek,
+  Italian,
+  Portuguese,
   and Spanish.
 
 You can find a full list of features in the

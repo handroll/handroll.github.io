@@ -8,8 +8,7 @@ template: base.j2
 ### A website generator for software artisans
 
 handroll is a website generator designed to be simple and fast.
-The concept is easy:
-you make content in your favorite format
+You make content in your favorite format
 and handroll makes a website out of it.
 
 Want to make a blog using [Markdown][md]? No problem. How about a personal
@@ -24,8 +23,7 @@ Who is this for?
 ----------------
 
 handroll is for people who want to use plain text editors to make websites.
-That group could include programmers, students, scientists, writers, poets,
-and more.
+That group could include programmers, writers, poets, and others.
 
 handroll is a command line tool. In almost all cases, you will only ever need
 to type `handroll`, but a basic comfort level with a command line terminal is
@@ -34,12 +32,13 @@ beneficial.
 What can it do?
 ---------------
 
-* Generate HTML from [Markdown][md], [reStructuredText][rst], or
+* Make HTML from [Markdown][md], [reStructuredText][rst], or
   [Textile][text].
-* Generate CSS from [Sass][sass].
+* Make CSS from [Sass][sass].
+* [Watch for changes as you work][devserver]
+  and automatically update your site.
 * Track blog entries and [generate a feed][blog].
-* Run a [development server][devserver] to update as you work.
-* Translated into
+* Speak
   Arabic,
   Dutch,
   English,

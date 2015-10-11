@@ -3,10 +3,6 @@
 title: handroll - A website generator for software artisans
 template: base.j2
 ---
-<div class='hero'>handroll</div>
-
-### A website generator for software artisans
-
 handroll is a website generator designed to be simple and fast.
 You make content in your favorite format
 and handroll makes a website out of it.

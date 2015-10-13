@@ -62,12 +62,12 @@ developers aren't liable for anything.
 
 [bsd]: https://github.com/handroll/handroll/blob/master/LICENSE
 
-Getting started
----------------
+Quickstart
+----------
 
 The first thing to do is to install handroll from a terminal.
 
-```bash
+```console
 $ pip install handroll
 ```
 

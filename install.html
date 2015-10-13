@@ -20,9 +20,119 @@
     </ul>
   </div>
   <div id='content'>
-<p>Detailed install instructions to come.</p>
-<p>For now:</p>
+<p>If you already know the <code>pip</code> tool,
+here&rsquo;s how you can install:</p>
 <div class="codehilite"><pre><span class="gp">$</span> pip install handroll
+</pre></div>
+
+
+<p>The rest of this documentation explains Python&rsquo;s installation tools
+and how to deal with some common issues.</p>
+<h2>Detailed instructions</h2>
+<p>handroll is written in the <a href="https://www.python.org/">Python</a> programming language.
+The tool uses Python&rsquo;s standard packaging
+and is uploaded to the primary Python repository,
+the <a href="https://pypi.python.org/pypi">Python Package Index (PyPI)</a>.</p>
+<p>PyPI uses a standard installation tool
+called <code>pip</code>.
+A recent version of Python <em>should</em> include <code>pip</code>
+as part of the installation,
+but there are a few reasons why it may not be installed.</p>
+<p>If you run <code>pip</code>
+and get results like:</p>
+<div class="codehilite"><pre><span class="gp">$</span> pip
+<span class="go">pip: command not found</span>
+</pre></div>
+
+
+<p>then you need to install the tool
+before proceeding.</p>
+<p>Your operating system may have <code>pip</code>
+as an available package.
+On Ubuntu,
+<code>sudo apt-get install python-pip</code>
+would install <code>pip</code>.
+The <a href="http://pip.readthedocs.org/en/stable/installing/"><code>pip</code> documentation</a> includes alternative instructions
+for how to get it installed.</p>
+<p>Once <code>pip</code> is installed, run:</p>
+<div class="codehilite"><pre><span class="gp">$</span> pip install handroll
+</pre></div>
+
+
+<h2>Troubleshooting</h2>
+<p>Sometimes things go wrong
+and <code>pip</code> may not give you helpful feedback.
+A common problem is administrative permissions.
+If you see something like:</p>
+<div class="codehilite"><pre><span class="gp">$</span> pip install handroll
+<span class="go">Downloading/unpacking handroll</span>
+<span class="go">  Downloading handroll-2.0-py2.py3-none-any.whl (80kB): 80kB downloaded</span>
+<span class="go">  ... snip ...</span>
+<span class="go">Installing collected packages: handroll, mock, blinker, textile, Pygments, werkzeug, docutils, watchdog, Markdown, argh, pathtools</span>
+<span class="go">Cleaning up...</span>
+<span class="go">Exception:</span>
+<span class="go">Traceback (most recent call last):</span>
+<span class="go">  File &quot;/usr/lib/python2.7/dist-packages/pip/basecommand.py&quot;, line 122, in main</span>
+<span class="go">    status = self.run(options, args)</span>
+<span class="go">  ... snip ...</span>
+<span class="go">OSError: [Errno 13] Permission denied: &#39;/usr/local/lib/python2.7/dist-packages/handroll&#39;</span>
+</pre></div>
+
+
+<p>then that means you are not installing
+with the required permissions.</p>
+<p>There are a few options to fixing this problem:</p>
+<ol>
+<li>Install with administrative permissions (i.e., a system installation).</li>
+<li>Install to a user account.</li>
+<li>Install in a directory with a virtual environment.</li>
+</ol>
+<h3>System installation</h3>
+<p>The easiest option is
+to run the command with elevated permissions.
+On a Linux operating system,
+this is commonly done with <code>sudo</code>.</p>
+<div class="codehilite"><pre><span class="gp">$</span> sudo pip install handroll
+</pre></div>
+
+
+<p>This should install handroll
+at the system level
+and put the <code>handroll</code> command
+in the system&rsquo;s <code>bin</code> directory
+(i.e., a location where your terminal can find the command).</p>
+<h3>User installation</h3>
+<p><code>pip</code> can install into a user&rsquo;s home directory
+where permissions shouldn&rsquo;t be an issue.</p>
+<div class="codehilite"><pre><span class="gp">$</span> pip install handroll --user
+</pre></div>
+
+
+<p>With this option,
+handroll will install in a user&rsquo;s home directory
+(most likely <code>$HOME/.local</code>).
+If this is the first time using a user installation,
+you may need to add to your <code>PATH</code>
+so your terminal can find the <code>handroll</code> command.</p>
+<div class="codehilite"><pre><span class="nv">$ </span><span class="nb">export </span><span class="nv">PATH</span><span class="o">=</span><span class="s2">&quot;</span><span class="nv">$PATH</span><span class="s2">:</span><span class="nv">$HOME</span><span class="s2">/.local/bin&quot;</span>
+</pre></div>
+
+
+<h3>Virtual environment installation</h3>
+<p>Virtual environments are special directories
+where Python code can be stored
+and isolated from other code.
+These environments are popular
+because they consolidate all code
+to a single place.
+A detailed explanation is a little out of scope
+for this guide;
+you can look at the <a href="https://virtualenv.pypa.io/en/latest/userguide.html">virtual environment documentation</a>
+for a thorough walk-through.</p>
+<p>To use a virtual environment:</p>
+<div class="codehilite"><pre><span class="gp">$</span> virtualenv venv
+<span class="gp">$</span> <span class="nb">source </span>venv/bin/activate
+<span class="gp">(venv)$</span> pip install handroll
 </pre></div>
   </div>
 </div>

@@ -1,5 +1,6 @@
 body {
   font-family: 'Ovo', Georgia, serif;
+  font-size: 18px;
   line-height: 2em;
 }
 
@@ -57,12 +58,15 @@ p {
 
 code {
   background-color: #e4e4e4;
+  font-size: 15px;
   padding: 0.25em;
 }
 
 pre {
   background-color: #e4e4e4;
+  font-size: 16px;
   padding: 1em 2em;
+  white-space: pre-wrap;
 }
 
 div#container {

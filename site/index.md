@@ -120,7 +120,7 @@ project.
 * [Google Group for announcements and discussion][groups]
 * [Transifex project for language translation][transifex]
 * [Travis project for Continuous Integration][travis]
-* [Coveralls for source coverage measurement][coveralls]
+* [Codecov for source coverage measurement][coverage]
 * [GitHub project for this website][website]
 
 [github]: https://github.com/handroll/handroll
@@ -129,4 +129,4 @@ project.
 [website]: https://github.com/handroll/handroll.github.io
 [transifex]: https://www.transifex.com/projects/p/handroll/
 [travis]: https://travis-ci.org/handroll/handroll
-[coveralls]: https://coveralls.io/r/handroll/handroll
+[coverage]: https://codecov.io/github/handroll/handroll

@@ -15,6 +15,23 @@ your style. You're good.
 [rst]: http://docutils.sourceforge.net/rst.html
 [text]: http://en.wikipedia.org/wiki/Textile_%28markup_language%29
 
+Quickstart
+----------
+
+Get started fast with these commands!
+
+```console
+$ pip install handroll
+$ handroll --scaffold default mysite
+Complete.
+$ handroll --watch mysite/source
+Serving /Users/matt/mysite at http://localhost:8000/.
+Press Ctrl-C to quit.
+```
+
+For more details, read on
+or go to the [installation guide](/install.html).
+
 Who is this for?
 ----------------
 
@@ -61,29 +78,6 @@ is made available under the [BSD license][bsd]. In layman's terms, the
 developers aren't liable for anything.
 
 [bsd]: https://github.com/handroll/handroll/blob/master/LICENSE
-
-Quickstart
-----------
-
-The first thing to do is to install handroll from a terminal.
-
-```console
-$ pip install handroll
-```
-
-After installing, make a directory for your project. Add a [template][template]
-or [configuration file][conf] to show handroll that your new directory is a
-handroll project.
-Then you are free to add whatever content you want.
-
-You can generate your site by running `handroll`,
-or let handroll watch your work
-and update as you go by using `handroll --watch`
-(see [Development Server][devserver]).
-
-[template]: http://handroll.readthedocs.org/en/latest/templates.html
-[conf]: http://handroll.readthedocs.org/en/latest/configuration.html
-[devserver]: http://handroll.readthedocs.org/en/latest/server.html
 
 Contributing
 ------------

@@ -26,6 +26,19 @@ and handroll makes a website out of it.</p>
 <p>Want to make a blog using <a href="http://daringfireball.net/projects/markdown/">Markdown</a>? No problem. How about a personal
 website in <a href="http://docutils.sourceforge.net/rst.html">reStructuredText</a>? Sure thing. Maybe <a href="http://en.wikipedia.org/wiki/Textile_%28markup_language%29">Textile</a> is more
 your style. You&rsquo;re good.</p>
+<h2>Quickstart</h2>
+<p>Get started fast with these commands!</p>
+<div class="codehilite"><pre><span class="gp">$</span> pip install handroll
+<span class="gp">$</span> handroll --scaffold default mysite
+<span class="go">Complete.</span>
+<span class="gp">$</span> handroll --watch mysite/source
+<span class="go">Serving /Users/matt/mysite at http://localhost:8000/.</span>
+<span class="go">Press Ctrl-C to quit.</span>
+</pre></div>
+
+
+<p>For more details, read on
+or go to the <a href="/install.html">installation guide</a>.</p>
 <h2>Who is this for?</h2>
 <p>handroll is for people who want to use plain text editors to make websites.
 That group could include programmers, writers, poets, and others.</p>
@@ -37,7 +50,7 @@ beneficial.</p>
 <li>Make HTML from <a href="http://daringfireball.net/projects/markdown/">Markdown</a>, <a href="http://docutils.sourceforge.net/rst.html">reStructuredText</a>, or
   <a href="http://en.wikipedia.org/wiki/Textile_%28markup_language%29">Textile</a>.</li>
 <li>Make CSS from <a href="http://sass-lang.com/">Sass</a>.</li>
-<li><a href="http://handroll.readthedocs.org/en/latest/server.html">Watch for changes as you work</a>
+<li><a href="http://handroll.readthedocs.org/en/latest/server.html#devserver">Watch for changes as you work</a>
   and automatically update your site.</li>
 <li>Track blog entries and <a href="http://handroll.readthedocs.org/en/latest/extensions.html#blog-extension">generate a feed</a>.</li>
 <li>Speak
@@ -57,20 +70,6 @@ beneficial.</p>
 <p>handroll is free and open source software. That means no cost to you. The tool
 is made available under the <a href="https://github.com/handroll/handroll/blob/master/LICENSE">BSD license</a>. In layman&rsquo;s terms, the
 developers aren&rsquo;t liable for anything.</p>
-<h2>Quickstart</h2>
-<p>The first thing to do is to install handroll from a terminal.</p>
-<div class="codehilite"><pre><span class="gp">$</span> pip install handroll
-</pre></div>
-
-
-<p>After installing, make a directory for your project. Add a <a href="http://handroll.readthedocs.org/en/latest/templates.html">template</a>
-or <a href="http://handroll.readthedocs.org/en/latest/configuration.html">configuration file</a> to show handroll that your new directory is a
-handroll project.
-Then you are free to add whatever content you want.</p>
-<p>You can generate your site by running <code>handroll</code>,
-or let handroll watch your work
-and update as you go by using <code>handroll --watch</code>
-(see <a href="http://handroll.readthedocs.org/en/latest/server.html">Development Server</a>).</p>
 <h2>Contributing</h2>
 <p>There are many ways to contribute to handroll.</p>
 <ul>

@@ -22,9 +22,9 @@ Get started fast with these commands!
 
 ```console
 $ pip install handroll
-$ handroll --scaffold default mysite
+$ handroll scaffold default mysite
 Complete.
-$ handroll --watch mysite/source
+$ handroll watch mysite/source
 Serving /Users/matt/mysite at http://localhost:8000/.
 Press Ctrl-C to quit.
 ```

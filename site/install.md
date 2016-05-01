@@ -48,7 +48,7 @@ would install `pip`.
 The [`pip` documentation][pip] includes alternative instructions
 for how to get it installed.
 
-[pip]: http://pip.readthedocs.org/en/stable/installing/
+[pip]: http://pip.readthedocs.io/en/stable/installing/
 
 Once `pip` is installed, run:
 

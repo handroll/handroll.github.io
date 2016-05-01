@@ -65,10 +65,10 @@ What can it do?
 You can find a full list of features in the
 [developer documentation][devfeatures].
 
-[devfeatures]: http://handroll.readthedocs.org/en/latest/#features
+[devfeatures]: http://handroll.readthedocs.io/en/latest/#features
 [sass]: http://sass-lang.com/
-[blog]: http://handroll.readthedocs.org/en/latest/extensions.html#blog-extension
-[devserver]: http://handroll.readthedocs.org/en/latest/server.html#devserver
+[blog]: http://handroll.readthedocs.io/en/latest/extensions.html#blog-extension
+[devserver]: http://handroll.readthedocs.io/en/latest/server.html#devserver
 
 How much?
 ---------
@@ -96,10 +96,10 @@ or translations are [recorded in the source code][authors].
 
 [groups]: https://groups.google.com/forum/#!forum/handroll
 [issues]: https://github.com/handroll/handroll/issues
-[i18n]: http://handroll.readthedocs.org/en/latest/i18n.html
+[i18n]: http://handroll.readthedocs.io/en/latest/i18n.html
 [pr]: https://github.com/handroll/handroll/pulls?q=is%3Aopen+is%3Apr
-[composer]: http://handroll.readthedocs.org/en/latest/composers.html
-[extension]: http://handroll.readthedocs.org/en/latest/extensions.html
+[composer]: http://handroll.readthedocs.io/en/latest/composers.html
+[extension]: http://handroll.readthedocs.io/en/latest/extensions.html
 [authors]: https://github.com/handroll/handroll/blob/master/AUTHORS
 
 More information
@@ -119,7 +119,7 @@ project.
 
 [github]: https://github.com/handroll/handroll
 [pypi]: https://pypi.python.org/pypi/handroll
-[rtd]: http://handroll.readthedocs.org/en/latest/
+[rtd]: http://handroll.readthedocs.io/en/latest/
 [website]: https://github.com/handroll/handroll.github.io
 [transifex]: https://www.transifex.com/projects/p/handroll/
 [travis]: https://travis-ci.org/handroll/handroll
